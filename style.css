@@ -1,3 +1,21 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('./fonts/Roboto-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('./fonts/Roboto-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -10,7 +28,7 @@ header {
 
 .container {
     display: flex;
-    max-width: 1100px;
+    max-width: 1000px;
     margin: 0 auto;
     justify-content: space-between;
     align-items: center;
@@ -20,6 +38,7 @@ header {
 .logo {
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: bold;
 }
 
 .links {
